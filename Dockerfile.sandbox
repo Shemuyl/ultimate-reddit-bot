@@ -1,0 +1,15 @@
+# Use a lightweight Debian-based image
+FROM debian:trixie-slim
+
+# Install dependencies
+RUN apt-get update && \
+    apt-get install -y nodejs npm tidy git curl && \
+    npm install -g eslint csslint && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /sandbox
+
+# Default command
+CMD ["bash"]
+
