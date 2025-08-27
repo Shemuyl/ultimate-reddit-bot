@@ -1,0 +1,5 @@
+.env
+discord_test.py
+docker-compose.yml
+bot.log
+__pycache__/
