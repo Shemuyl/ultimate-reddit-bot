@@ -1,0 +1,25 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000U\u0000l\u0000t\u0000i\u0000m\u0000a\u0000t\u0000e\u0000 \u0000R\u0000e\u0000d\u0000d\u0000i\u0000t\u0000 \u0000B\u0000o\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shemuyl/ultimate-reddit-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shemuyl/ultimate-reddit-bot/issues"
+  },
+  "homepage": "https://github.com/Shemuyl/ultimate-reddit-bot#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
