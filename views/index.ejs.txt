@@ -3,17 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ultimate Reddit Bot Dashboard</title>
-  <link rel="stylesheet" href="/style.css">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Hello from Node.js + Express</h1>
-    <p>If you see this, your server is serving real HTML 🎉</p>
-    <button id="actionBtn">Click Me!</button>
-    <p id="response"></p>
-  </div>
+  <h1>Hello from Node.js + Express</h1>
+  <p>Your server is serving real HTML 🎉</p>
+  <button id="myButton">Click me!</button>
 
-  <script src="/script.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
